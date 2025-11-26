@@ -1,5 +1,8 @@
 name: Seoul Contract Watcher
 
+permissions:
+  contents: write   # 👈 이 줄이 ‘쓰기 권한 주세요’라는 뜻
+  
 on:
   schedule:
     - cron: "*/10 * * * *"   # 10분마다 실행
